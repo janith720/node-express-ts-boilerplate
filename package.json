@@ -1,0 +1,35 @@
+{
+  "name": "express-ts-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "build": "tsc --build --verbose && tsc-alias",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.8.4",
+    "@typescript-eslint/eslint-plugin": "^8.14.0",
+    "@typescript-eslint/parser": "^8.14.0",
+    "eslint": "^9.15.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.12.0",
+    "prettier": "3.3.3",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.6.3",
+    "typescript-eslint": "^8.14.0"
+  }
+}
