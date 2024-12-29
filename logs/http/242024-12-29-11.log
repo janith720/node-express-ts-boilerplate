@@ -1,0 +1,4 @@
+2024-12-29-11:10:59 info: ================================================== 
+2024-12-29-11:10:59 info: = Server up at🚀: http://localhost:3000 | v20.11.1 = 
+2024-12-29-11:10:59 info: ================================================== 
+2024-12-29-11:11:29 error: Error connecting to database: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017 

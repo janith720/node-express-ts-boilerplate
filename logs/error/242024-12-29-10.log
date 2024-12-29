@@ -1,0 +1,92 @@
+2024-12-29-10:02:44 error: Error connecting to database: Error: querySrv ENODATA _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:05:27 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:06:03 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:06:52 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:09:54 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:12:39 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:14:14 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:15:48 error: Error connecting to database: Error: querySrv EREFUSED _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:16:33 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:17:44 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:24:45 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:28:36 error: Error connecting to database: Error: querySrv ENODATA _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:33:02 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:33:42 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:35:23 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:36:00 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:38:16 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:39:34 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:41:07 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:41:55 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:43:06 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:45:53 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-10:55:31 error: uncaughtException: this.setRoutes is not a function
+TypeError: this.setRoutes is not a function
+    at new App (/home/janith_u/Projects/node-express-ts-boilerplate/src/core/app.ts:22:10)
+    at Object.<anonymous> (/home/janith_u/Projects/node-express-ts-boilerplate/src/server.ts:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at phase4 (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/bin.ts:649:14) 
+ TypeError: this.setRoutes is not a function
+    at new App (/home/janith_u/Projects/node-express-ts-boilerplate/src/core/app.ts:22:10)
+    at Object.<anonymous> (/home/janith_u/Projects/node-express-ts-boilerplate/src/server.ts:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at phase4 (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/bin.ts:649:14)
+2024-12-29-10:56:27 error: uncaughtException: this.setRoutes is not a function
+TypeError: this.setRoutes is not a function
+    at new App (/home/janith_u/Projects/node-express-ts-boilerplate/src/core/app.ts:23:10)
+    at Object.<anonymous> (/home/janith_u/Projects/node-express-ts-boilerplate/src/server.ts:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at phase4 (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/bin.ts:649:14) 
+ TypeError: this.setRoutes is not a function
+    at new App (/home/janith_u/Projects/node-express-ts-boilerplate/src/core/app.ts:23:10)
+    at Object.<anonymous> (/home/janith_u/Projects/node-express-ts-boilerplate/src/server.ts:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at phase4 (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/bin.ts:649:14)
+2024-12-29-10:56:41 error: uncaughtException: this.setRoutes is not a function
+TypeError: this.setRoutes is not a function
+    at new App (/home/janith_u/Projects/node-express-ts-boilerplate/src/core/app.ts:23:10)
+    at Object.<anonymous> (/home/janith_u/Projects/node-express-ts-boilerplate/src/server.ts:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at phase4 (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/bin.ts:649:14) 
+ TypeError: this.setRoutes is not a function
+    at new App (/home/janith_u/Projects/node-express-ts-boilerplate/src/core/app.ts:23:10)
+    at Object.<anonymous> (/home/janith_u/Projects/node-express-ts-boilerplate/src/server.ts:3:13)
+    at Module._compile (node:internal/modules/cjs/loader:1376:14)
+    at Module.m._compile (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1618:23)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1435:10)
+    at Object.require.extensions.<computed> [as .ts] (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1207:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1023:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+    at phase4 (/home/janith_u/Projects/node-express-ts-boilerplate/node_modules/ts-node/src/bin.ts:649:14)
+2024-12-29-10:57:42 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 

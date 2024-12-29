@@ -1,0 +1,65 @@
+{
+    "keep": {
+        "days": false,
+        "amount": 14
+    },
+    "auditLog": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/.4b6a4183d94596f26dafc4abeb8fc0b4f2ea923f-audit.json",
+    "files": [
+        {
+            "date": 1735389593278,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-28-18.log",
+            "hash": "d6e82f6f46e2084d0a699d71bdce65f31960306fb3a5a14c13195b387d7b8ae1"
+        },
+        {
+            "date": 1735406091595,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-28-22.log",
+            "hash": "0f66038c5712f62cec9923e72bcc40c480bc2d022640996ca7873387f9dd6e10"
+        },
+        {
+            "date": 1735407168785,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-28-23.log",
+            "hash": "00a606f498d6903e1561a2bcb951668742435743b7c6d32029e4d0812aa1593a"
+        },
+        {
+            "date": 1735436363719,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-29-07.log",
+            "hash": "a897874dc2012a119449c02668e0a989bc978d278bd7725ef60bb2fb5fb33078"
+        },
+        {
+            "date": 1735439434844,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-29-08.log",
+            "hash": "db2c01ccedd8d96056371bfa738859cd94f230e062eb868baf383eb5afa31669"
+        },
+        {
+            "date": 1735445761554,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-29-09.log",
+            "hash": "58aa942b0192eb32dec1002369c7eb2f82b03b7e002c1bfdad3ada1f6fe06710"
+        },
+        {
+            "date": 1735446728585,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-29-10.log",
+            "hash": "d7f8eee6bbd41f4249904ce0ed6d4dc91e55bf49bd8a40d1fd3e8e86e3bcc373"
+        },
+        {
+            "date": 1735450228704,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-29-11.log",
+            "hash": "9493fc4b5793bc42fbcca45f6221e71a0f13f5857bc5b98762546e52b02c207f"
+        },
+        {
+            "date": 1735456894655,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-29-12.log",
+            "hash": "c0867c17b4ece1db20f51a3230e1e275fc24ef042c5a2467a36d09d5545d5d13"
+        },
+        {
+            "date": 1735457460602,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-29-13.log",
+            "hash": "a462a24fde71fdfd21912f044c1e22649ba1c0f7b435717dfd391eb04950fce6"
+        },
+        {
+            "date": 1735492562428,
+            "name": "/home/janith_u/Projects/node-express-ts-boilerplate/logs/trace/242024-12-29-22.log",
+            "hash": "dd681cdb59c7de6a9c1b6e1272f2a0e4249e84cb6d25858fec7176336636a1bb"
+        }
+    ],
+    "hashType": "sha256"
+}

@@ -1,0 +1,7 @@
+2024-12-29-09:46:32 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-09:50:20 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-09:52:55 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-09:54:37 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-09:55:36 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-09:56:14 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
+2024-12-29-09:59:49 error: Error connecting to database: Error: querySrv ETIMEOUT _mongodb._tcp.mongodbtransactions.411111e.mongodb.net 
