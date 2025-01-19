@@ -1,8 +1,9 @@
 import express, { Application } from 'express';
 import cors from 'cors';
 import helmet from 'helmet';
-import Logger from 'utils/logger';
+import { PORT } from 'configs/envValidator.configs';
 import winston from 'winston';
+import Logger from 'utils/logger';
 
 class CommonMiddleware {
   // The Express application instance.
@@ -58,7 +59,7 @@ class CommonMiddleware {
   public useCors(): void {
     const corsOptions = {
       exposedHeaders: ['Authorization', 'Refresh-Token'],
-      origin: 'http://localhost:3000',
+      origin: `http://localhost:${PORT}`,
       credentials: true,
     };
 

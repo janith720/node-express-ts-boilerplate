@@ -1,9 +1,11 @@
 import mongoose, { ConnectOptions, Connection, connect } from 'mongoose';
-import Logger from 'utils/logger';
-import winston from 'winston';
 import { DB_DATABASE, DB_URI } from './envValidator.configs';
+import winston from 'winston';
+import Logger from 'utils/logger';
 
+// db options when connecting to localDb
 const dbOptions: ConnectOptions = { directConnection: true };
+// db configuration
 const dbConnectionConfigs = {
   uri: `${DB_URI}/${DB_DATABASE}`,
   options: dbOptions,
@@ -17,6 +19,9 @@ class DatabaseConnection {
     this.logger = Logger.getLogger();
   }
 
+  /**
+   * Connect to the Database
+   */
   public async connect(): Promise<void> {
     try {
       await connect(dbConnectionConfigs.uri, dbConnectionConfigs.options);

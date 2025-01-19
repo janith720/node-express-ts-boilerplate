@@ -1,9 +1,10 @@
-import express, { Application, Request, Response } from 'express';
+import express, { Application } from 'express';
 import { Server, createServer } from 'http';
 import winston from 'winston';
+
+import loadEnvVariables, { PORT } from 'configs/envValidator.configs';
 import DatabaseConnection from 'configs/dbConnection.configs';
 import Logger from 'utils/logger';
-import loadEnvVariables from 'configs/envValidator.configs';
 import InitializeMiddleware from './initializeMiddleware';
 import InitializeRoutes from './initializeRoutes';
 
@@ -16,11 +17,10 @@ class App {
 
   constructor() {
     this.app = express();
-    this.port = 3000;
+    this.port = PORT || 3000;
     this.httpServer = createServer(this.app);
     this.app.set('port', this.port);
     this.dbConnection = new DatabaseConnection();
-
     this.logger = Logger.getLogger();
 
     this.initializeFunctions().catch(error => {
@@ -29,12 +29,17 @@ class App {
     });
   }
 
+  /**
+   * Initializes the necessary components for the application
+   */
   private async initializeFunctions(): Promise<void> {
+    // Load all the variables
     loadEnvVariables();
+    // Connect to the database
     await this.dbConnection.connect();
-
+    // Initializes common middleware that required for application
     InitializeMiddleware.initializeCommonMiddleware(this.app);
-    // initialize routes
+    // Set up application routes
     InitializeRoutes.initialize(this.app);
 
     // Start listening only if all initializations succeed
